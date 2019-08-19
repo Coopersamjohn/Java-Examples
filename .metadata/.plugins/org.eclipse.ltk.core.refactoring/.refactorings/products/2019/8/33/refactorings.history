@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Product.java&apos; to &apos;product_app_v2.0/src/com_pojo&apos;&#x0D;&#x0A;- Original project: &apos;products&apos;&#x0D;&#x0A;- Destination element: &apos;product_app_v2.0/src/com_pojo&apos;&#x0D;&#x0A;- Original element: &apos;products.Product.java&apos;" description="Copy compilation unit" destination="=product_app_v2.0/src&lt;com_pojo" element1="/src&lt;products{Product.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1565980984468" units="1" version="1.0"/>
+</session>

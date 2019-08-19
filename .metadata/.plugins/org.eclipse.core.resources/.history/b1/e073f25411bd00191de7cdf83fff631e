@@ -1,0 +1,64 @@
+package products;
+
+public class Product {
+	
+	public Product() {
+		//business standard
+	}
+	
+	private int pid;
+	private String pname;
+	private double price;
+	private float rating;
+	private String manufactureName;
+	
+	public Product(int pid, String pname, double price, float rating, String manufactureName) {
+		super();
+		this.pid = pid;
+		this.pname = pname;
+		this.price = price;
+		this.rating = rating;
+		this.manufactureName = manufactureName;
+	}
+
+	public static int getPid() {
+		return pid;
+	}
+
+	public void setPid(int pid) {
+		this.pid = pid;
+	}
+
+	public static String getPname() {
+		return pname;
+	}
+
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+
+	public static double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public static float getRating() {
+		return rating;
+	}
+
+	public void setRating(float rating) {
+		this.rating = rating;
+	}
+
+	public String getManufactureName() {
+		return manufactureName;
+	}
+
+	public void setManufactureName(String manufactureName) {
+		this.manufactureName = manufactureName;
+	}
+	
+}

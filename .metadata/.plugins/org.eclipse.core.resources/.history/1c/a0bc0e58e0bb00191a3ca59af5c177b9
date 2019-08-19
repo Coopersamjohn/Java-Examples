@@ -1,0 +1,14 @@
+package question1;
+
+public class BubbleSortMain {
+	
+	static int arr[]= {1,0,5,6,3,2,3,7,9,8,4};
+
+	public static void main(String[] args) {
+
+		bubbleSort(arr);
+		
+
+	}
+
+}

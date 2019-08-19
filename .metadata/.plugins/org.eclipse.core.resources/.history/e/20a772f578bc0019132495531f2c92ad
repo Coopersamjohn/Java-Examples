@@ -1,0 +1,12 @@
+package question6;
+
+public class EvenOrNotMain {
+
+	public static void main(String[] args) {
+		
+		EvenOrNot eo=new EvenOrNot();
+		System.out.println(eo.evenOrNot(3));
+		
+	}
+
+}

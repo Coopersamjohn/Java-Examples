@@ -1,0 +1,16 @@
+package question7;
+
+public class ObjectSortMain {
+
+	public static void main(String[] args) {
+
+		Employee e1=new Employee("Bob", 24, "IT");
+		Employee e2=new Employee("Steve",23,"HR");
+		
+		
+		NameSort ns=new NameSort();
+		System.out.println(ns.compare(e1,e2));
+
+	}
+
+}

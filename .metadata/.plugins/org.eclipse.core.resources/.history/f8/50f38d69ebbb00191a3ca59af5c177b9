@@ -1,0 +1,12 @@
+package question3;
+
+public class ReverseStringMain {
+
+	public static void main(String[] args) {
+
+		ReverseString rs=new ReverseString();
+		rs.reverseString("You shit fucking faggots)
+
+	}
+
+}

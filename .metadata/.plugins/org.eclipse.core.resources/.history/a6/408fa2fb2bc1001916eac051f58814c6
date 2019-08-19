@@ -1,0 +1,85 @@
+package com.business.impl;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com_business.ProductBusiness;
+import com_pojo.Product;
+
+public class ProductBusinessImpl implements ProductBusiness {
+
+	private Map<Integer, Product> productMap=new HashMap<>();
+
+	@Override
+	public Product addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product updateProductPrice(int pid, double newPrice) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteProduct(int pid) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Product getProductById(int pid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getProductsByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAllProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Map<Integer, Product> getProductMap() {
+		return productMap;
+	}
+
+	public void setProductMap(Map<Integer, Product> productMap) {
+		this.productMap = productMap;
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((productMap == null) ? 0 : productMap.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		ProductBusinessImpl other = (ProductBusinessImpl) obj;
+		if (productMap == null) {
+			if (other.productMap != null)
+				return false;
+		} else if (!productMap.equals(other.productMap))
+			return false;
+		return true;
+	}
+	
+	
+	
+}

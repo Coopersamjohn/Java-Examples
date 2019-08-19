@@ -1,0 +1,10 @@
+package com_business;
+
+import com_pojo.Product;
+
+public interface ProductBusiness {
+
+	// adding a product
+	public Product addProduct(Product product);
+	
+}

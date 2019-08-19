@@ -1,0 +1,18 @@
+package question7;
+
+import java.util.Comparator;
+
+public class NameSort implements Comparator<Employee>{
+	
+	// Sort two employees based on their name, department, 
+	// and age using the `Comparator` interface.
+
+	@Override
+	public int compare(Employee o1, Employee o2) {
+		
+		
+		return 0;
+	}
+	
+
+}

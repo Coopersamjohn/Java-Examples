@@ -1,0 +1,13 @@
+package question4;
+
+public class Factorial {
+	
+	public double factorial(double n) {
+		double x = n;
+		for (double i = n; i >=0 ; i--) {
+			x = x*i;
+		}
+		return x;
+	}
+
+}

@@ -1,0 +1,16 @@
+package com_main;
+
+public class ProductMain {
+
+	public static void main(String[] args) {
+
+
+		//create a menu for all your requirements from ProductBusiness
+
+	}
+	
+	public static void printProduct(List<Product> productList) {
+		System.out.println("Total "+productList.size()+" no of product/s are existing");
+	}
+
+}

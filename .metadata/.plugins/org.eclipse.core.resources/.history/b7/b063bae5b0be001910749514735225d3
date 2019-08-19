@@ -1,0 +1,32 @@
+package example1;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		String s1 = "hello";
+		
+		System.out.println(s1);
+		System.out.println(s1.toUpperCase());
+		System.out.println(s1);
+		
+		s1=s1.toUpperCase();// NOW it is re-assigned its reference
+		System.out.println(s1);
+		
+		System.out.println(s1.equals("hello")); // false, now capitalized
+		System.out.println(s1.equals("HELLO")); // true, use for passwords so that it matches EXACTLY
+		System.out.println(s1.equalsIgnoreCase("HeLLo")); // true, use for user names
+
+		System.out.println("s1 ends with ello "+s1.endsWith("ELLO"));
+		System.out.println("s1 starts with H "+s1.startsWith("H"));
+		
+		System.out.println("s1 contains 'EL' "+s1.contains("EL"));// contains character sequence
+		System.out.println("s1 contains 'LOL' "+s1.contains("LOL"));
+		
+		// substring is overloaded
+		
+		System.out.println(s1.substring(1));
+		System.out.println(s1.substring(1,3));
+		
+	}
+
+}

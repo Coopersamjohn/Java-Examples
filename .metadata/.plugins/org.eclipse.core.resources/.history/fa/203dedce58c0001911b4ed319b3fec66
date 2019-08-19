@@ -1,0 +1,21 @@
+package com.business.impl;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com_business.ProductBusiness;
+import com_pojo.Product;
+
+public class ProductBusinessImpl implements ProductBusiness {
+
+	private Map<Integer, Product> productMap=new HashMap<>();
+
+	public Map<Integer, Product> getProductMap() {
+		return productMap;
+	}
+
+	public void setProductMap(Map<Integer, Product> productMap) {
+		this.productMap = productMap;
+	}
+	
+}

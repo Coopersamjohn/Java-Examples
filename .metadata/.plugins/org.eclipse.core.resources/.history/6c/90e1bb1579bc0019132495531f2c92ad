@@ -1,0 +1,21 @@
+package question6;
+
+import java.util.Scanner;
+
+public class EvenOrNotMain {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Check if an interger is Even or Odd.");
+		System.out.println("Which interger would you like to check?");
+		sc.nextInt();
+		
+		
+		EvenOrNot eo=new EvenOrNot();
+		System.out.println(eo.evenOrNot(3));
+		
+	}
+
+}

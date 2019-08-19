@@ -1,0 +1,25 @@
+package example1;
+
+public class RegEx {
+
+	public static void main(String[] args) {
+		
+		/* Reg-Ex(Regular Expressions - common in all languages) 
+		 * 
+		 * PMA - pattern matching algorithm
+		 * 
+		 *  [] - expression
+		 *
+		 */
+		
+		String s="QDEFU1989P";
+
+		if(s.matches("[A-Z]{5}[0-9]{4}[A-Z]{1}")) {
+			System.out.println("Validated");
+		} else {
+			System.out.println("Invalidated");
+		}
+
+	}
+
+}

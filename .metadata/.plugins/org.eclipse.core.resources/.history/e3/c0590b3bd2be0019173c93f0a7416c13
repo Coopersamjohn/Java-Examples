@@ -1,0 +1,33 @@
+package buffer;
+
+public class TitleCase {
+
+	public static void main(String[] args) {
+
+
+		String s="hello hii im feeling drowsy";
+		// expected output - Hello, I'm Feeling Drowsy?
+		// split, letter at first location, toUpperCase, recombine, toString
+		
+		StringBuilder sb=new StringBuilder();
+		StringBuilder sb1=new StringBuilder();
+		
+		String ar[]=s.split(" ");
+		
+		for (int j = 0; j < ar.length; j++) {
+			sb.append(Character.toUpperCase(ar[j].charAt(0))).append(ar[j].substring(1)).append(" ");
+		}
+		System.out.println(sb.toString().trim());
+		
+		// try with last character
+		// if the word's length is odd, then convert middle character to uppercase
+		
+		
+		for (int i=0; i<ar.length; i++) {
+			sb1.append(Character.toUpperCase(ar[i].charAt((ar[i].length())-1))).append(ar[i].substring(3)).append(" ");
+		}
+		System.out.println(sb1.toString().trim());
+
+	}
+
+}

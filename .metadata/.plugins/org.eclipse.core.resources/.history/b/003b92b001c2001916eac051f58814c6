@@ -1,0 +1,26 @@
+package com_main;
+
+import java.util.List;
+
+import com.business.impl.ProductBusinessImpl;
+
+import com_business.ProductBusiness;
+import com_pojo.Product;
+
+public class ProductMain {
+
+	public static void main(String[] args) {
+
+
+		ProductBusiness pb=new ProductBusinessImpl();
+		//create a menu for all your requirements from ProductBusiness
+
+	}
+	
+	public static void printProduct(List<Product> productList) {
+		ProductBusiness pb=new ProductBusinessImpl();
+		System.out.println("Total "+productList.size()+" no of product/s are existing");
+		System.out.println(pb.getAllProducts());
+	}
+
+}

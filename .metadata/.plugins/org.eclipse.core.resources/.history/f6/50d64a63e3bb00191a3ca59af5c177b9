@@ -1,0 +1,9 @@
+package question2;
+
+public class Fibbonachi25 {
+	
+	public void fib() {
+		
+	}
+
+}

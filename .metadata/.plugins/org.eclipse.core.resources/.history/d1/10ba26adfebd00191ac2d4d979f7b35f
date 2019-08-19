@@ -1,0 +1,54 @@
+package add_delete;
+
+import java.util.Scanner;
+
+public class Menu {
+
+	public static void main(String[] args) {
+
+
+		int currentSize=0;
+		int pos=0;
+		int newElement=22;
+		
+		int arr[]=new int[50];
+		
+		Scanner sc=new Scanner(System.in);
+		
+		//initialize choice field
+		int ch=0;
+		
+		// Menu Start		
+		do {
+			System.out.println("Type your selection below:: ");
+			System.out.println(" 1)  Add a number to a position in an array");
+			System.out.println(" 2) Delete a number from a position in an array");
+			
+			// loading user selection
+			ch=sc.nextInt();
+			
+			
+			switch (ch) {
+			case 1:
+				System.out.println("What number would you like to add to the current array?");
+				int insertNum = sc.nextInt();
+				
+				System.out.println("At what position (1-50) would you like to add that number?");
+				pos= sc.nextInt();
+				
+				
+			break;
+				
+			case 2:
+				
+			break;
+			};			
+		} while (ch != 3);	
+		sc.close();
+		
+		
+		
+
+	}
+
+}
