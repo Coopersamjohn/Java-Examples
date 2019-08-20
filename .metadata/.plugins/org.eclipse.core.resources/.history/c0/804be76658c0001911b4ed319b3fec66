@@ -1,7 +1,0 @@
-package com.business.impl;
-
-public class ProductBusinessImpl implements ProductBusiness {
-
-	private Map<Integer, Product>
-	
-}
