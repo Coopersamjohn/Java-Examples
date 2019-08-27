@@ -1,0 +1,4 @@
+this message should be written inside the file...
+this will be in new line../nthis is the new message
+this is the new message
+You can also use try w/ resources to simplify code
