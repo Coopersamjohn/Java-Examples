@@ -1,7 +1,7 @@
 package example1;
 
 public class Calculator {
-	
+	super();
 	int a;
 	int b;
 

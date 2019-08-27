@@ -15,8 +15,16 @@ public class ProductBusinessImpl implements ProductBusiness {
 
 	@Override
 	public Product addProduct(Product product) {
-		productMap.put(product.getPid(), product);
-		return product;
+		/*
+		 * productMap.put(product.getPid(), product); return product;
+		 */
+		
+		if(productMap.containsKey(product.getPid())) {
+			return null;
+		} else {
+			productMap.put(product.getPid(), product) ;
+			return product;
+		}
 	}
 
 	@Override
